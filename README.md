@@ -1,3 +1,46 @@
+React CRUD Boilerplate
+Based on Stephen Grider's "Modern React With Redux" Udemy course
+Video Streaming not implemented, just the basic CRUD methods
+Uses json-server as a dummy fake REST API: https://github.com/typicode/json-server
+
+in the 'api' folder:
+db.json:
+{
+"streams": [
+{
+"title": "the",
+"description": "str",
+"id": 1
+},
+{
+"title": "Other stream",
+"description": "it's a stream",
+"id": 2
+},
+{
+"title": "Newer Stream",
+"description": "component reuse",
+"id": 3
+}
+]
+}
+
+package.json:
+{
+"name": "api",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+"start": "json-server -p 3001 -w db.json"
+},
+"author": "",
+"license": "ISC",
+"dependencies": {
+"json-server": "^0.14.2"
+}
+}
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
