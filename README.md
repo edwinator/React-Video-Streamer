@@ -1,6 +1,5 @@
-React CRUD Boilerplate
+React Video Streaming app
 Based on Stephen Grider's "Modern React With Redux" Udemy course
-Video Streaming not implemented, just the basic CRUD methods
 Uses json-server as a dummy fake REST API: https://github.com/typicode/json-server
 
 in the 'api' folder:
